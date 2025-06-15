@@ -1,4 +1,4 @@
-import '../styles/tasks.css';
+import '../Sgit tyles/tasks.css';
 import React, { useState } from 'react';
 
 const Tasks = () => {
