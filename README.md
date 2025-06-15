@@ -1,12 +1,47 @@
-# React + Vite
+# Task Manager App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Fitur Aplikasi
 
-Currently, two official plugins are available:
+### Fitur Utama
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**1. Tambah Tugas Baru**  
+Pengguna dapat menambahkan tugas baru ke dalam daftar tugas.
 
-## Expanding the ESLint configuration
+**2. Tandai Selesai / Belum Selesai**  
+Klik pada tugas untuk menandai apakah tugas tersebut sudah selesai atau belum.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**3. Hapus Tugas**  
+Pengguna dapat menghapus tugas yang tidak diperlukan dari daftar.
+
+---
+
+### Fitur Tambahan (Bonus Poin)
+
+**1. Pencarian Tugas**  
+Fitur pencarian yang memungkinkan pengguna memfilter daftar tugas berdasarkan kata kunci.
+
+**2. Edit Tugas**  
+Pengguna dapat mengedit judul tugas dengan mengklik dua kali pada teks tugas.
+
+**3. Hitung Total Tugas**  
+Menampilkan jumlah total tugas yang saat ini sedang ditampilkan di daftar.
+
+---
+
+### Fitur Tampilan
+
+**1. Responsive Design**  
+Tampilan aplikasi menyesuaikan dengan berbagai ukuran layar, termasuk perangkat mobile dan desktop.
+
+**2. Desain Modern dengan Gradien**  
+Menggunakan latar belakang gradien biru gelap yang elegan dengan kotak tugas di tengah layar untuk kenyamanan visual.
+
+---
+
+### Deployment
+
+**1. Proyek Terintegrasi GitHub**  
+Seluruh kode sumber proyek ini dikelola melalui repositori GitHub.
+
+**2. Sudah Dideploy (Opsional)**  
+Aplikasi siap untuk dideploy ke platform hosting frontend seperti Netlify, Vercel, atau GitHub Pages.
